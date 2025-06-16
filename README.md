@@ -1,16 +1,43 @@
-# food_dashboard
+# 📱 My First Flutter UI – Profile Page
 
-A new Flutter project.
+This is a beginner-friendly Flutter project that showcases a professional profile UI using only basic Flutter widgets — no external packages used.
 
-## Getting Started
+## 🎯 Purpose
 
-This project is a starting point for a Flutter application.
+The goal was to practice and apply core concepts of Flutter like layout, design, widget structuring, styling, and interactivity — while keeping the UI professional, user-friendly, and visually appealing.
 
-A few resources to get you started if this is your first Flutter project:
+## 🧱 Widgets Used
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- `Scaffold`
+- `AppBar`
+- `Drawer`
+- `BottomNavigationBar`
+- `FloatingActionButton`
+- `Text`, `Row`, `Column`, `Container`, `CircleAvatar`
+- `Padding`, `EdgeInsets`, `BoxDecoration`, `TextStyle`, etc.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🎨 Features
+
+- Gradient AppBar and DrawerHeader
+- Rounded and shadowed container cards
+- Circle avatars for quick actions
+- Responsive layout using `Column` and `Row`
+- BottomNavigationBar with three options
+- Professional color theme: Indigo + Pink
+
+
+
+
+
+- Created by **Khurram Saeed**
+- Guided by **@Afaq Zahir **
+
+
+## 📌 License
+
+This project is open for learning and practice purposes. Feel free to fork and modify.
+
+---
+
+> “The expert in anything was once a beginner.” — Start small, build big.
+
