@@ -28,29 +28,28 @@ class MyHomePage extends StatefulWidget {
 }
 
 class _MyHomePageState extends State<MyHomePage> {
-  int _selectedIndex = 1; // Index for 'Profile' in BottomNavigationBar
+  int _selectedIndex = 1; 
 
   void _onItemTapped(int index) {
     setState(() {
       _selectedIndex = index;
     });
-    // In a real app, you'd navigate to different pages here
-    // For this example, we just update the selected index.
+   
   }
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[100], // Light grey background
+      backgroundColor: Colors.grey[100], /
       appBar: AppBar(
         backgroundColor: Colors.blue.shade700, // Darker blue for AppBar
-        elevation: 0, // No shadow
+        elevation: 0, 
         leading: Builder(
           builder: (BuildContext context) {
             return IconButton(
-              icon: const Icon(Icons.menu, color: Colors.white), // Drawer icon
+              icon: const Icon(Icons.menu, color: Colors.white), 
               onPressed: () {
-                Scaffold.of(context).openDrawer(); // Open the drawer
+                Scaffold.of(context).openDrawer(); 
               },
             );
           },
